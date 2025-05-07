@@ -1,0 +1,74 @@
+* {
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  border-radius: 15px;
+}
+body{
+  font-family: sans-serif;
+  background-color: #222222;
+  color: white
+}
+header{
+  font-family: "Helvetica Neue", "Netflix Sans", sans-serif;
+  padding: 3%;
+  background-color: black;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: descendo 2s;
+}
+nav, ul {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+}
+td {
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+td:hover{
+  background-color: #3E3E3E;
+  cursor: pointer;
+}
+li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+table{
+  font-size: 130%;/*  sdadadsdad    */
+  color: red;
+  padding: 3%;
+  animation: entrando 2s
+}
+summary:hover{
+  color: yellow;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+p{
+  text-decoration: none;
+}
+@keyframes descendo{
+  from{
+    margin-top: -10%;
+  }
+  to{
+    margin: 0;
+  }
+}
+@keyframes entrando{
+  from{
+    margin-left: -98%;
+  }
+  to{
+    margin: 0;
+  }
+}
